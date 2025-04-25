@@ -4,7 +4,7 @@ properties:
   identifier:
     type: string # NetworkIdentifier
     description: Network identifier.
-    example: testnet
+    example: mijin-test
   nodeEqualityStrategy:
     $ref: "./NodeIdentityEqualityStrategy.yml"
     example: host
